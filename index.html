@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Multistep Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--Form Sequence Container-->
+      <div class="form-sequence-container">
+        <ul>
+            <li>
+                <div class="serial">1</div>
+                <div class="form-sequence-text-box">
+                    <p class="step-no">Step 1</p>
+                    <p class="step-name">Personal Info</p>
+                </div>
+            </li>
+            <li>
+                <div class="serial">1</div>
+                <div class="form-sequence-text-box">
+                    <p class="step-no">Step 2</p>
+                    <p class="step-name">Personal Info</p>
+                </div>
+            </li>
+            <li>
+                <div class="serial">1</div>
+                <div class="form-sequence-text-box">
+                    <p class="step-no">Step 3</p>
+                    <p class="step-name">Personal Info</p>
+                </div>
+            </li>
+            <li>
+                <div class="serial">1</div>
+                <div class="form-sequence-text-box">
+                    <p class="step-no">Step 4</p>
+                    <p class="step-name">Personal Info</p>
+                </div>
+            </li>
+        </ul>
+      </div>
+      <!--Main content-->
+      <div class="main-content">
+        <!--Page-1 : PERSONAL INFO-->
+        <div class="personal-info">
+          <header>
+            <h1 class="page-header">Personal info</h1>
+            <p class="page-subheader">
+              Please provide your name, email and phone number
+            </p>
+          </header>
+          <div class="form-section">
+            <label class="form-item" for="username">
+              <p>Name</p>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                required
+                placeholder="e.g.Stephen King"
+              />
+            </label>
+            <label class="form-item" for="email">
+              <p>Email Address</p>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="e.g. stephenking123@gmail.com"
+              />
+            </label>
+            <label class="form-item" for="phone">
+              <p>Phone Number</p>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                required
+                placeholder="e.g. +1234567890"
+              />
+            </label>
+          </div>
+          <section class="button-container">
+            <button class="back-btn">Go Back</button>
+            <button class="next-btn">Next Step</button>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
