@@ -108,7 +108,7 @@ header {
   /*     justify-content:space-around; */
   align-items: center;
   height: 100%;
-  border: 2px solid purple;
+  /*   border: 2px solid purple; */
   padding: 10px;
 }
 /*CENTER-SECTION :: PAGE-1*/
@@ -141,17 +141,91 @@ input {
 }
 
 /*CENTER SECTION :: PAGE-2*/
-.pricing-container{
-  height:140px;
-  border:2px solid red;
-  width:100%;
+.pricing-container {
+  /*   height: 140px; */
+  /*   border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
 }
-.plan-duration-container{
-  margin-top:20px;
-  height:50px;
-  width:100%;
-  border:2px solid green;
+.subs-card {
+  width: 30%;
+  border: 1px solid lightgray;
+  /*   background-color:#e8f5ff; */
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  /*   padding: 5px; */
 }
+
+.subs-icon-container {
+  width: 50%;
+  /*   border: 1px solid blue; */
+  padding: 10px;
+  margin-bottom: 4rem;
+}
+.subs-icon {
+  width: 100%;
+  height: auto;
+}
+.subs-desc-container {
+  width: 100%;
+  padding: 10px;
+  /*   border:2px solid darkred; */
+  position: absolute;
+  bottom: 0px;
+}
+.subs-name {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #02295a;
+}
+.subs-price {
+  font-size: 0.75rem;
+  font-weight: light;
+}
+
+.plan-duration-container {
+  padding: 10px 0px;
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+/*   border: 2px solid green; */
+  border-radius:10px;
+  background-color:#f8f9fe;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.duration{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 0px 10px;
+/*   border:1px solid blue; */
+  font-size:0.85rem;
+  font-weight:bold;
+  color:#02295a;
+}
+
+/*toggle-btn*/
+.toggle-btn{
+/*   border:2px solid black;*/
+  background-color:#02295a;
+  width:40px;
+  height:1.3rem;
+  border-radius:15px;
+  padding:4px;
+}
+.circle{
+/*   border:1px solid red;*/
+  background-color:white;
+  width:40%;
+  height:100%;
+  border-radius:50%;
+}
+
 
 /*BUTTON CONTAINER*/
 .button-container {
