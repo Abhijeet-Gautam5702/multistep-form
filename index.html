@@ -93,7 +93,7 @@
           <!--Page-1 ends-->
 
           <!--Page-2: Plan Selection-->
-          <div class="center-section plan-container">
+          <div class="center-section plan-container hide">
             <div class="pricing-container">
               <!--Single subscription card-->
               <div class="subs-card">
@@ -140,13 +140,102 @@
             </div>
             <div class="plan-duration-container">
               <p class="duration">Monthly</p>
-              <div class="toggle-btn">
-                <div class="circle"></div>
-              </div>
+              <!--toggle switch-->
+              <label class="switch">
+                <input type="checkbox" checked />
+                <span class="slider round"></span>
+              </label>
               <p class="duration">Yearly</p>
             </div>
           </div>
           <!--Page-2 ends-->
+
+          <!--Page-3: Pick Add Ons-->
+          <div class="center-section add-on-container hide ">
+            <!--Single add-on item-->
+            <label class="add-on-item">
+              <label for="checkbox">
+                <input
+                  class="checkbox-sq"
+                  type="checkbox"
+                  name="add-on"
+                  id="checkbox"
+                  checked
+                />
+              </label>
+              <div class="add-on-text-container">
+                <p class="add-on-title">Online Service</p>
+                <p class="add-on-desc">Access to multiplayer games</p>
+              </div>
+              <p class="add-on-price">$1/mo</p>
+            </label>
+            <!--Single add-on item-->
+            <label class="add-on-item">
+              <label for="checkbox">
+                <input
+                  class="checkbox-sq"
+                  type="checkbox"
+                  name="add-on"
+                  id="checkbox"
+                />
+              </label>
+              <div class="add-on-text-container">
+                <p class="add-on-title">Online Service</p>
+                <p class="add-on-desc">Access to multiplayer games</p>
+              </div>
+              <p class="add-on-price">$1/mo</p>
+            </label>
+            <!--Single add-on item-->
+            <label class="add-on-item">
+              <label for="checkbox">
+                <input
+                  class="checkbox-sq"
+                  type="checkbox"
+                  name="add-on"
+                  id="checkbox"
+                />
+              </label>
+              <div class="add-on-text-container">
+                <p class="add-on-title">Online Service</p>
+                <p class="add-on-desc">Access to multiplayer games</p>
+              </div>
+              <p class="add-on-price">$1/mo</p>
+            </label>
+          </div>
+          <!--Page-3 ends-->
+
+          <!--Page-4: Summary-->
+          <div class="summary-container hide">
+            <div class="plan-summary">
+              <div class="plan-summary-name">
+                <span class="pg4-plan-type">Arcade</span>
+                <span class="pg4-plan-duration">[Monthly]</span>
+              </div>
+              <div class="pg4-amt">$9/mo</div>
+            </div>
+            <div class="add-on-summary">
+              <!--Added dynamically by JS-->
+              <div class="add-on-item-wrapper">
+                <p class="pg4-add-on-name">Online services</p>
+                <p class="pg4-amt">$1/mo</p>
+              </div>
+            </div>
+            <div class="total-amt-wrapper">
+              <p class="pg4-total-amt-text">Total Amount</p>
+              <div class="pg4-amt">$12/mo</div>
+            </div>
+          </div>
+          <!--Page-4 ends-->
+
+          <!--Page-5: Confirmation Page-->
+          <div class="confirmation-pg-container">
+            <div class="tq-icon-container">
+              <img class="tq-icon" src="./images/icon-thank-you.svg" alt="icon">
+            </div>
+            <h3 class="tq-title">Thank you!</h3>
+            <p class="tq-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, repellendus blanditiis! Iusto maxime dicta odit doloremque explicabo nisi, accusamus</p>
+          </div>
+          <!--Page-5 ends-->
 
           <!--Button container-->
           <section class="button-container">
