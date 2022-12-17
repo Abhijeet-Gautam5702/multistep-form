@@ -445,3 +445,7 @@ button:hover {
   background-color:#bfe2fd;
   color:black;
 }
+.changeCardDesign{
+  border-color:#6259ff;
+  background-color: #f4f3ff;
+}
