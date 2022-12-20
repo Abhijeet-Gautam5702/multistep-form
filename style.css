@@ -314,15 +314,15 @@ input.checkbox-sq {
 
 /*CENTER SECTION :: PAGE-4*/
 .summary-container {
-/*     border:1px solid black; */
-/*   width:100%; */
+  /*     border:1px solid black; */
+  /*   width:100%; */
   display: flex;
   flex-direction: column;
   /*   padding:10px; */
   justify-content: center;
 }
 .plan-summary {
-  width:100%;
+  width: 100%;
   border-radius: 10px 10px 0px 0px;
   /*   border:2px solid cyan; */
   padding: 10px;
@@ -345,7 +345,7 @@ input.checkbox-sq {
   margin-right: 10px;
 }
 .add-on-summary {
-  width:100%;
+  width: 100%;
   border-radius: 0px 0px 10px 10px;
   background-color: #f4f3ff;
   /*   border:2px solid red; */
@@ -355,7 +355,7 @@ input.checkbox-sq {
   /* align-items:center; */
 }
 .add-on-item-wrapper {
-  width:100%;
+  width: 100%;
   padding: 0px 10px;
   font-size: 0.8rem;
   margin: 3px 0px;
@@ -364,7 +364,7 @@ input.checkbox-sq {
   justify-content: space-between;
 }
 .total-amt-wrapper {
-  width:100%;
+  width: 100%;
   padding: 20px 0px;
   /*   border:2px solid green; */
   display: flex;
@@ -386,7 +386,8 @@ input.checkbox-sq {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  /*   border:2px solid red; */
+  margin-top: 10%;
+  /*     border:2px solid red; */
 }
 .tq-icon-container {
   width: 18%;
@@ -399,7 +400,7 @@ input.checkbox-sq {
   margin: 10px 0px;
 }
 .tq-text {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
   line-height: 1.3rem;
 }
@@ -428,24 +429,22 @@ button {
 button:hover {
   background-color: hsl(243, 100%, 62%);
 }
-.next-btn{
-  margin-left:auto;
+.next-btn {
+  margin-left: auto;
 }
-.back-btn{
-  margin-right:auto;
+.back-btn {
+  margin-right: auto;
 }
-
-
 
 .hide {
   display: none;
 }
-.changeSerialDesign{
-  border:2px solid #bfe2fd;
-  background-color:#bfe2fd;
-  color:black;
+.changeSerialDesign {
+  border: 2px solid #bfe2fd;
+  background-color: #bfe2fd;
+  color: black;
 }
-.changeCardDesign{
-  border-color:#6259ff;
+.changeCardDesign {
+  border-color: #6259ff;
   background-color: #f4f3ff;
 }
